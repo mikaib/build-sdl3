@@ -75,7 +75,8 @@ cmake .. -G "Visual Studio 17 2022" %CMAKE_ARCH% ^
     -DCMAKE_BUILD_TYPE=Release ^
     -DSDL_SHARED=ON ^
     -DSDL_STATIC=ON ^
-    -DSDL_TEST=OFF
+    -DSDL_TEST=OFF ^
+    -DCMAKE_MSVC_RUNTIME_LIBRARY="MultiThreaded"
 
 if %ERRORLEVEL% NEQ 0 (
     echo CMake configuration failed with error code %ERRORLEVEL%
