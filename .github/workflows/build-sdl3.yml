@@ -539,5 +539,5 @@ jobs:
             - iOS (ARM64 device + ARM64/x86_64 simulator)
             - Windows (x64 and ARM64)
             - Linux (x64 and ARM64)
-            - Android (multiple NDK versions, all architectures as static library)" \
+            - Android (multiple NDK versions, all architectures as both static and shared library)" \
             $RELEASE_FILES
