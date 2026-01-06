@@ -44,7 +44,7 @@ for ARCH in "${ARCHS[@]}"; do
         -DANDROID_STL=c++_static \
         -DSDL_SHARED=OFF \
         -DSDL_STATIC=ON \
-        -DSDL_TEST=OFF
+        -DSDL_TESTS=OFF
 
     # Build static library
     ninja
@@ -80,7 +80,7 @@ for ARCH in "${ARCHS[@]}"; do
         -DANDROID_STL=c++_static \
         -DSDL_SHARED=ON \
         -DSDL_STATIC=OFF \
-        -DSDL_TEST=OFF
+        -DSDL_TESTS=OFF
 
     # Build shared library
     ninja
