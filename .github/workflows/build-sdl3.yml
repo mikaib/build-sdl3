@@ -395,14 +395,9 @@ jobs:
       matrix:
         # Updated NDK version formats to match what sdkmanager expects
         ndk-version:
-          - '21.4.7075529' # r21e
-          - '22.1.7171670' # r22b
-          - '23.1.7779620' # r23b
-          - '24.0.8215888' # r24
-          - '25.2.9519653' # r25c
-          - '26.3.11579264' # r26d
-          - '27.2.12479018' # r27c
-          - '28.1.13356709' # r28b
+          - '27.3.13750724' # r27d
+          - '28.2.13676358' # r28c
+          - '29.0.14206865' # r29
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
